@@ -15,12 +15,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </div>
+<script src="https://kit.fontawesome.com/c1c83fcf5d.js" crossorigin="anonymous"></script>
 
 <body>
     <div class="container">
         <div class="login-preview">
             <img src="img/profile.png" class="profile-icon img-fluid ">
-            <h1 class="login-header">Login</h1>
+            <h1>Login</h1>
             <form>
                 <style>
                      ::placeholder {
@@ -28,10 +29,14 @@
                         opacity: 2;
                     }
                 </style>
-                <p>Email</p>
-                <input type="text" name="" placeholder="Enter your email">
-                <p>Password</p>
-                <input type="password" name="" placeholder="Enter your Password">
+                <div><i class="fa fa-user-o" aria-hidden="true"></i>
+
+                    <input type="text" name="" placeholder="Enter your email">
+                </div>
+                <div><i class="fa fa-key" aria-hidden="true"></i>
+                    <input type="password" name="" placeholder="Enter your Password">
+                </div>
+
                 <input type="submit" name="" value="Login">
 
 
